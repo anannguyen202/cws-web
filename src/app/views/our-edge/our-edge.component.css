@@ -1,0 +1,46 @@
+#our-edge {
+    color: #ffffff;
+    /* background: #750863 url(../../../assets/images/bg-edge.png) no-repeat fixed; */
+    background: #660169 url(../../../assets/images/bg-edge.png) no-repeat fixed;
+    background-size: 96%;
+    
+}
+
+.edge-description {
+    font-size: large;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+#edge-ls {
+    padding: 40px 0 100px;
+}
+
+#edge-ls .title {
+    display: block;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#edge-ls .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 190px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+#edge-ls .detail  {
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}

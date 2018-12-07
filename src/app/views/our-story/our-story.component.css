@@ -1,0 +1,46 @@
+#banner{
+    width: 100%;
+    height: 500px;
+    background: url(../../../assets/images/re-imagine.png) center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.content{
+    padding: 80px 10px 100px 10px;
+    background-color:  #d9d9d9;
+}
+
+.content p{
+    text-align: justify;
+    color: #8c8c8c;
+
+}
+
+/* .content h3{
+    color: 	 #b30000;
+    position: relative;
+    margin-bottom:  50px;
+    font-size: 25px;
+
+} */
+
+/* .content h3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 160px;
+    height: 2px;
+    border-bottom: 1px solid 	 #b30000;
+} */
+
+h5 {
+    color:  #720764;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight:  bold;
+}
+
+
+

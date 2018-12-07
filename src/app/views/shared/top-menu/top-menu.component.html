@@ -1,0 +1,69 @@
+<div style="width: 100%" class="bg-img">
+    <ul class="navbar-nav pd-10">
+        <li class="logo">
+            <a routerLink="/index">
+                <img src="../../../../assets/images/cs-logo.png">
+            </a>
+        </li>
+        <li class="space">
+        </li>
+        <li class="desktop">
+            <a routerLink="/our-story" routerLinkActive="nav-active">OUR STORY</a>
+        </li>
+        <li class="desktop">
+            <a routerLink="/our-expertise" routerLinkActive="nav-active">EXPERTISE</a>
+        </li>
+        <li class="desktop">
+            <a routerLink="/our-edge" routerLinkActive="nav-active">OUR EDGE</a>
+        </li>
+        <li class="mr-left" data-toggle="modal" data-target="#navbar-more">
+            <button class="navbar-toggle1">MENU <i class="fas fa-bars"></i></button>
+        </li>
+    </ul>
+</div>
+
+<div class="modal" id="navbar-more" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header1 pd-10">
+                <div class="logo">
+                    <a href="/dashboard">
+                        <img src="../../../../assets/images/cs-logo.png">
+                    </a>
+                </div>
+                <div class="space"></div>
+                <button class="more-close" data-dismiss="modal"><i class="far fa-times-circle fa-lg"></i></button>
+            </div>
+            <ul class="navbar-more animated fadeIn faster">
+                <li>
+                    <a routerLink="/our-story" data-dismiss="modal">Our Story</a>
+                </li>
+                <li>
+                    <a routerLink="/our-expertise" data-dismiss="modal">Our Expertise</a>
+                </li>
+                <li>
+                    <a routerLink="/our-edge" data-dismiss="modal">Our Edge</a>
+                </li>
+                <li>
+                    <a routerLink="/our-advantage" data-dismiss="modal">Our Advantage</a>
+                </li>
+                <li>
+                    <a routerLink="/our-approach" data-dismiss="modal">Our Approach</a>
+                </li>
+                <li>
+                    <a routerLink="/our-community" data-dismiss="modal">Our Community</a>
+                </li>
+                <!-- <li>
+                    <a href="">The Crimson Blog</a>
+                </li>
+                <li>
+                    <a href="">Press</a>
+                </li> -->
+                <li>
+                    <a routerLink="/contact" data-dismiss="modal">Connect With Us</a>
+                </li>
+                <li class="linkedin"><i class="fab fa-linkedin fa-2x"></i></li>
+            </ul>
+        </div>
+    </div>
+</div>

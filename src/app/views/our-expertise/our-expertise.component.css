@@ -1,0 +1,40 @@
+#our-expertise {
+    color: #ffffff;
+    background: #660169 url(../../../assets/images/bg-expertise.png) no-repeat fixed;
+    background-size: 96%;
+}
+
+#expertise-ls {
+    /* padding: 20px 0 80px 45px; */
+    padding: 20px 0 80px 0;
+    margin-top: 80px;
+}
+
+#expertise-ls .title {
+    display: block;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 45px;
+    cursor: pointer;
+    line-height: 33px;
+}
+
+#expertise-ls .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    width: 190px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+#expertise-ls .detail  {
+    font-size: 17px;
+    margin-bottom: 20px;
+}

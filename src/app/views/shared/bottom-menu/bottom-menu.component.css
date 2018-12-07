@@ -1,0 +1,59 @@
+.bg-img {
+    background-image: url("../../../../assets/images/bg.jpg");
+}
+
+.mr-right0 {
+    margin-right: 0px !important;
+    display: flex;
+}
+
+p {
+    margin: auto;
+    color: white;
+    text-align: right;
+    margin-top: 2%;
+}
+
+.scale {
+    margin: auto;
+    color: white !important;
+    transition: transform .2s;
+}
+
+.scale:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+hr {
+    border-top: 1px solid white;
+    width: 22%;
+    margin-left: 0px;
+}
+
+.format-row {
+    margin-left: auto;
+    padding: 2% 5% 2% 5%;
+}
+
+.format-row1 {
+    margin: auto;
+    padding: 3% 9% 0 0;
+}
+
+i {
+    color: white;
+    float: right;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pad0 {
+    padding-right: 0px;
+    /* padding-left: 0px; */
+}
+
